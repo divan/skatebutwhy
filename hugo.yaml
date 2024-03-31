@@ -1,0 +1,27 @@
+baseURL: https://skatebutwhy.com
+languageCode: en-us
+title: Skate But Why
+theme: ["PaperMod"]
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+
+params:
+  hideFooter: true
+  homeInfoParams:
+    Title: "Hi there 👋"
+    Content: Can be Info, links, about...
+
+  socialIcons: # optional
+    - name: "X"
+      url: "<link>"
+    - name: "Youtube"
+      url: "<link2>"
